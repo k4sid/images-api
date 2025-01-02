@@ -7,7 +7,7 @@ const port = 3000;
 // Serve image when the API endpoint is hit
 app.get('/image', (req, res) => {
   // Specify the image path
-  const imagePath = path.join(__dirname, 'images', 'example.jpg'); // Ensure you have the image in the 'images' folder
+  const imagePath = path.join(__dirname, 'images', 'example2.jpg'); // Ensure you have the image in the 'images' folder
 
   // Set the proper headers and send the image
   res.sendFile(imagePath, (err) => {
